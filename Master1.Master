@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master1.master.cs" Inherits="MentalHealth3.Master1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Hackathon</title>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/CssMaster.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <asp:ContentPlaceHolder ID="PlaceHolderHeader" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="topofthePage"></div>
+        <div style="width: 20%; margin: 10px auto;">
+            <img src="Images/Logo.png" width="100%" />
+        </div>
+
+        <asp:ContentPlaceHolder ID="PlaceHolderContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

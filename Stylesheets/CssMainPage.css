@@ -1,0 +1,32 @@
+﻿#DivLogin {
+    width: 36%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ButtonLogin {
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    transition: background-color 2s;
+}
+
+    .ButtonLogin:hover {
+        cursor: pointer;
+        background-color: ghostwhite;
+        transition: background-color 2s;
+    }
+
+table tr td input[type=text] {
+    height: 20px;
+}
+
+table tr td input[type=password] {
+    height: 20px;
+}
+
+table tr td:first-child{
+    width: 30%;
+}

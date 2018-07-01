@@ -1,0 +1,76 @@
+﻿a {
+    text-decoration-line: none;
+    color: white;
+}
+
+#TableChoose {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+    #TableChoose tr td {
+        height: 100px;
+        width: 33%;
+        vertical-align: top;
+        padding-top: 50px;
+    }
+
+        #TableChoose tr td div {
+            background-color: #e74c3c;
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            border-radius: 2px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100px;
+            transition: background-color 1s;
+            color: gray;
+            font-size: 13px;
+        }
+
+            #TableChoose tr td div:hover {
+                cursor: pointer;
+                background-color: rgba(255, 255, 255, 0.75);
+                transition: background-color 1s;
+            }
+
+
+.Divisions {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+    .Divisions table {
+        width: 100%;
+    }
+
+        .Divisions table tr td:last-child {
+            width: 30%;
+        }
+
+.ButtonSubmit {
+    background-color: white;
+    transition: background-color 1s;
+}
+
+    .ButtonSubmit:hover {
+        background-color: rgba(255, 255, 255, 0.75);
+        cursor: pointer;
+        transition: background-color 0.5s;
+    }
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    width: 5%;
+}
+
+    #back-to-top img {
+        width: 100%;
+        cursor: pointer;
+    }
